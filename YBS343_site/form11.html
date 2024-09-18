@@ -1,0 +1,93 @@
+<!DOCTYPE>
+<html>
+<head><title>FORMS</title></head>
+<body>
+	<h1> Feedback Form <h1><br>
+		<p> Please fill out this form to help us improve our site.
+<form method="post" action="">
+	<p><label> Name:
+		<input name="Name" type="text" size="20"/>
+	</label>
+	<label> Surname:
+		<input name="Surname" type="text" size="20"/>
+	</label>
+	</p>
+	<br>
+
+<p><label> Comments: <br>
+<textarea name="yorum" rows="6" cols="36"> </textarea>
+</label>
+</p>
+<p><label> E-mail Address:
+	<input name="mail" type="password" size="30">
+</label></p>
+
+
+<p><b> Things you liked: </b> <br>
+	<label>Site design
+<input name="things" type="checkbox" value="site" checked />
+</label>
+<label>Links
+	<input name="things" type="checkbox" value="Link"/>
+</label>
+<label> Ease of use 
+	<input name="things" type="checkbox" value="ease"/>
+</label>
+<label> Images 
+	<input name="things" type="checkbox" value="images"/>
+</label>
+<label>Source code
+	<input name="things" type="checkbox" value="source"/>
+</label>
+<label> others
+	<input name="things" type="checkbox" value="other"/>
+</label>
+</p>
+
+<p><i><b> How did you get to our site?: </b></i><br>
+	<label> Search engine
+		<input name="site" type="radio" value="search" checked/>
+</label>
+<label> Links from another site
+	<input name="site" type="radio" value="link"/ >
+</label>
+<label> Deitel.com Web site
+	<input name="site" type="radio" value="web"/>
+</label>
+<label>Book
+	<input name="site" type="radio" value="book"/>
+</label>
+<label> Reference in a e-book 
+	<input name="site" type="radio" value="ref"/>
+</label>
+<label> Other
+	<input name="site" type="radio" value="oth"/>
+</label>
+</p>
+
+<p><label> Rate our site:
+	<select name="rating" >
+		<option>Amazing</option>
+		<option>10</option>
+		<option>9</option>
+		<option>8</option>
+		<option>7</option>
+		<option>6</option>
+		<option>5</option>
+		<option>4</option>
+		<option>3</option>
+		<option>2</option>
+		<option>1</option>
+		<option>Awful</option>
+	</select>
+</label>
+</p>
+
+<p>
+	<input type="submit" value="submit"/>
+	<input type="reset" value="delete"/>
+</p>
+</form>
+
+</body>
+</html>
